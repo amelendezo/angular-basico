@@ -7,6 +7,6 @@ import { environment } from './environments/environment';
 if (environment.production) {
   enableProdMode();
 }
-
+// esto le ayuda a decirle a angular en el ambiente que esta corriendo
 platformBrowserDynamic().bootstrapModule(AppModule)
   .catch(err => console.error(err));
